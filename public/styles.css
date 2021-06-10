@@ -1,0 +1,51 @@
+body {
+    background-color: #eba83a;
+    background-image: url("../images/connected.png");
+}
+
+/* Navbar */
+.navbar {
+    padding: 20px;
+}
+
+.navbar-brand {
+    font-family: 'Staatliches', cursive;
+    font-size: 3.5rem;
+    margin: 0 30px;
+    letter-spacing: 5px;
+}
+
+.navbar-nav {
+    font-size: 1.5rem;
+}
+
+/* Image */
+.drums-img {
+    width: 100%;
+    height: auto;
+}
+
+/* Main Page */
+.main-items {
+    margin: 15% 50px;
+}
+
+.large-text {
+    /* color: #02475e; */
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.mini-text {
+    /* color: white; */
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.main-items button {
+    margin: 5px 20px 5px 0;
+}

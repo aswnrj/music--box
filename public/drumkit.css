@@ -1,0 +1,89 @@
+body {
+    background-color: #d5dbb3;
+}
+
+/* Navbar */
+.navbar {
+    padding: 20px;
+}
+
+.navbar-brand {
+    font-family: 'Staatliches', cursive;
+    font-size: 3.5rem;
+    margin: 0 30px;
+    letter-spacing: 5px;
+}
+
+.navbar-nav {
+    font-size: 1.5rem;
+}
+
+/* Image */
+.main-box {
+    margin: 2% 0;
+    text-align: center;
+}
+
+.key-img-box {
+    position: relative;
+}
+
+.drumkit-img {
+    width: 100%;
+}
+
+/* Keys */
+.key {
+    font-size: 2vw;
+    margin: auto;
+    height: 6%;
+    width: 5%;
+    position: absolute;
+    border: solid white;
+}
+
+#crash {
+    top: 9%;
+    left: 23%;
+}
+
+#floor-tom {
+    top: 45%;
+    left: 32%;
+}
+
+#mid-tom {
+    top: 32%;
+    left: 44%;
+}
+
+#high-tom {
+    top: 30%;
+    right: 36%;
+}
+
+#snare {
+    top: 40%;
+    right: 26%;
+}
+
+#ride {
+    top: 5%;
+    right: 18%;
+}
+
+#hi-hat {
+    top: 23%;
+    right: 12%;
+}
+
+#kick {
+    bottom: 25%;
+    right: 37%;
+}
+
+@media screen and (min-width: 1200px) {
+    .key {
+        font-size: 1rem;
+    }
+}

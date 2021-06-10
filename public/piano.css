@@ -1,0 +1,88 @@
+body {
+    background-color: #293b5f;
+}
+
+/* Navbar */
+.navbar {
+    padding: 20px;
+}
+
+.navbar-brand {
+    font-family: 'Staatliches', cursive;
+    font-size: 3.5rem;
+    margin: 0 30px;
+    letter-spacing: 5px;
+}
+
+.navbar-nav {
+    font-size: 1.5rem;
+}
+
+/* Piano */
+
+.all-keys {
+    position: relative;
+    text-align: center;
+    margin: 20% 5%;
+}
+
+.white-key {
+    height: 300px;
+    width: 10%;
+    padding-top: 230px;
+}
+
+.black-key {
+    z-index: 1;
+    position: absolute;
+    height: 200px;
+    width: 6%;
+    padding-top: 140px;
+    color: white;
+}
+
+.key {
+    float: left;
+    border: solid 2px black;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+
+.white-pressed {
+    box-shadow: 0 6px black;
+    border: solid 5px lightskyblue;
+    border-top: 0;
+}
+
+.black-pressed {
+    border: solid 5px lightskyblue;
+    border-top: 0;
+}
+
+#C-s {
+    left: 7%;
+}
+
+#D-s {
+    left: 17%;
+}
+
+#F-s {
+    left: 37%;
+}
+
+#G-s {
+    left: 47%;
+}
+
+#A1-s {
+    left: 57%;
+}
+
+#C1-s {
+    left: 77%;
+}
+
+#D1-s {
+    left: 87%;
+}
